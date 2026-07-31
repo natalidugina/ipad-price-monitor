@@ -410,7 +410,7 @@ def collect_unit_store(
                     "Unit Store — попап перекрыл кнопку, "
                     "нажимаю принудительно..."
                 )
-                choose_other.click(force=True).click()
+                choose_other.click(force=True)
 
             city_option = page.get_by_text(
                 "Санкт-Петербург",
