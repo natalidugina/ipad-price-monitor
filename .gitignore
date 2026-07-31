@@ -1,0 +1,10 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.env
+*.log
+dns_error.png
+unit_store_error.png
+dns_debug.png
+run_price_monitor_silent.bat
